@@ -135,6 +135,12 @@ Else, **minet** can be installed directly as a python CLI tool and library using
 pip install minet
 ```
 
+To install **minet** with `uv`, you need to enable pre-releases:
+
+```shell
+uv tool install --python 3.10 minet --prerelease=allow
+```
+
 Finally if you want to install the standalone binaries by yourself (even for windows) you can find them in each release [here](https://github.com/medialab/minet/releases).
 
 ## Upgrading
